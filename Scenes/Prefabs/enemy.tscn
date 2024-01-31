@@ -1,0 +1,208 @@
+[gd_scene load_steps=30 format=3 uid="uid://dtu06qlq70w1r"]
+
+[ext_resource type="Texture2D" uid="uid://bmiyncj72wt8f" path="res://Assets/Duck/Idle (36x36).png" id="1_beu7y"]
+[ext_resource type="Script" path="res://Scenes/Prefabs/enemy.gd" id="1_vgxhl"]
+[ext_resource type="Texture2D" uid="uid://bhmo47bjnv1cm" path="res://Assets/Duck/Hit (36x36).png" id="1_vis87"]
+[ext_resource type="Texture2D" uid="uid://7j7ltmyyyhww" path="res://Assets/Duck/Jump Anticipation (36x36).png" id="2_tjei1"]
+[ext_resource type="Texture2D" uid="uid://d05584uiyuoux" path="res://Assets/Duck/Jump (36x36).png" id="3_6ngbo"]
+[ext_resource type="Texture2D" uid="uid://caydv5aqhxk4a" path="res://Assets/Duck/Fall (36x36).png" id="4_r75bd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vf32m"]
+atlas = ExtResource("1_vis87")
+region = Rect2(144, 0, 35, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ga1kc"]
+atlas = ExtResource("1_vis87")
+region = Rect2(108, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_akyuv"]
+atlas = ExtResource("1_vis87")
+region = Rect2(72, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rt5g"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(36, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rajs1"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(72, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sni1o"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(108, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tyoqm"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(144, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fs88"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(180, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tjrs2"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(216, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7qfli"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(252, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vgpcw"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(288, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_he41w"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(324, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uoj08"]
+atlas = ExtResource("1_beu7y")
+region = Rect2(0, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6btm4"]
+atlas = ExtResource("2_tjei1")
+region = Rect2(108, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bnfwo"]
+atlas = ExtResource("2_tjei1")
+region = Rect2(72, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gayfo"]
+atlas = ExtResource("2_tjei1")
+region = Rect2(36, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7n1xw"]
+atlas = ExtResource("2_tjei1")
+region = Rect2(0, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_srsbe"]
+atlas = ExtResource("3_6ngbo")
+region = Rect2(0, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_osccp"]
+atlas = ExtResource("4_r75bd")
+region = Rect2(0, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50r8o"]
+atlas = ExtResource("2_tjei1")
+region = Rect2(0, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h65sc"]
+atlas = ExtResource("2_tjei1")
+region = Rect2(108, 0, 36, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ld4l"]
+atlas = ExtResource("2_tjei1")
+region = Rect2(72, 0, 36, 36)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_80ky1"]
+animations = [{
+"frames": [{
+"duration": 15.0,
+"texture": SubResource("AtlasTexture_vf32m")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_ga1kc")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_akyuv")
+}],
+"loop": true,
+"name": &"Hit",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rt5g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rajs1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sni1o")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_tyoqm")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_3fs88")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_tjrs2")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_7qfli")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_vgpcw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_he41w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uoj08")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6btm4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bnfwo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gayfo")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_7n1xw")
+}, {
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_srsbe")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_osccp")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_50r8o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h65sc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ld4l")
+}],
+"loop": true,
+"name": &"Victory",
+"speed": 20.0
+}]
+
+[node name="Enemy" type="Node2D"]
+script = ExtResource("1_vgxhl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(64, 44)
+sprite_frames = SubResource("SpriteFrames_80ky1")
+animation = &"Hit"
+
+[node name="AttackTimer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[node name="FormulaLabel" type="Label" parent="."]
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 130.0
+offset_bottom = 24.0
+text = "Placeholder Text"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="AttackDurationTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]
+[connection signal="timeout" from="AttackDurationTimer" to="." method="_on_attack_duration_timer_timeout"]
