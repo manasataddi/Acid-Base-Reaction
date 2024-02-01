@@ -4,14 +4,14 @@ extends Node2D
 @onready var formula = $FormulaLabel
 @onready var attack_timer = $AttackTimer  # Replace with the actual path to your attack timer
 @onready var attack_duration_timer = $AttackDurationTimer  # Replace with the actual path to your attack duration timer
-var compoundArray = [["AgCl","Neutral"],["BaCrO4","Base"],["CCl4","Neutral"],["HClO4","Acid"],["CO2H","Acid"],["HNO2","Acid"],["C3H8","Neutral"],["CH3COOH","Acid"],["MgC2O4","Base"],["HCN","Acid"],["CH4","Neutral"],["CaCO3","Base"],["Na2S","Base"],["K2SO3","Base"],["CH3-NH2","Base"],["Mg(OH)2","Base"],["HCl","Acid"],["HNO3","Acid"],["K3PO4","Base"],["KNO3","Neutral"],["KNO2","Base"],["NaBr","Neutral"],["KMnO4","Base"],["Ca(ClO3)2","Base"],["H2O","Both"]]
+var compoundArray = [["AgCl","Neutral"],["BaCrO₄","Base"],["CCl₄","Neutral"],["HClO₄","Acid"],["CO₂H","Acid"],["HNO₂","Acid"],["C₃H₈","Neutral"],["CH₃COOH","Acid"],["MgC₂O₄","Base"],["HCN","Acid"],["CH₄","Neutral"],["CaCO₃","Base"],["Na₂S","Base"],["K₂SO₃","Base"],["CH₃-NH₂","Base"],["Mg(OH)₂","Base"],["HCl","Acid"],["HNO₃","Acid"],["K₃PO₄","Base"],["KNO₃","Neutral"],["KNO₂","Base"],["NaBr","Neutral"],["KMnO₄","Base"],["Ca(ClO₃)₂","Base"],["H₂O","Both"]]
 var victory = false
 var hit_animation_playing = false
-
 # Called when the node enters the scene tree for the first time.
+
 func _ready():
 	pass  # Replace with function body.
-
+	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	enemy_animations()
