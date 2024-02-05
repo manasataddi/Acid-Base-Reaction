@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://w7m6tehvvy3g"]
+[gd_scene load_steps=33 format=3 uid="uid://w7m6tehvvy3g"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_qt7d6"]
 [ext_resource type="Texture2D" uid="uid://d0bnul87wxart" path="res://Assets/character/adventurer-attack2-00.png" id="2_kgakc"]
@@ -14,20 +14,13 @@
 [ext_resource type="Texture2D" uid="uid://rr15tedvkbr2" path="res://Assets/character/adventurer-attack2-05.png" id="7_tlhox"]
 [ext_resource type="Texture2D" uid="uid://ro5e8u7yns1t" path="res://Assets/character/adventurer-jump-00.png" id="7_yjj7r"]
 [ext_resource type="Texture2D" uid="uid://fkta2pawstl7" path="res://Assets/character/adventurer-jump-01.png" id="8_7c5cy"]
-[ext_resource type="Texture2D" uid="uid://6bkw3bmj7r02" path="res://Assets/character/adventurer-die-00.png" id="8_48sk1"]
 [ext_resource type="Texture2D" uid="uid://bi4rv5aac4x7c" path="res://Assets/character/adventurer-jump-02.png" id="9_lljot"]
-[ext_resource type="Texture2D" uid="uid://q364m8dqy2q4" path="res://Assets/character/adventurer-die-01.png" id="9_wj66t"]
 [ext_resource type="Texture2D" uid="uid://cj5onhng4h5ar" path="res://Assets/character/adventurer-jump-03.png" id="10_1n8jg"]
-[ext_resource type="Texture2D" uid="uid://cd6hruo0kq150" path="res://Assets/character/adventurer-die-02.png" id="10_cigh6"]
 [ext_resource type="Texture2D" uid="uid://b2p7oph7c4nk0" path="res://Assets/character/adventurer-slide-00.png" id="11_a74gj"]
-[ext_resource type="Texture2D" uid="uid://dojy45ivcn6vc" path="res://Assets/character/adventurer-die-03.png" id="11_k3kip"]
 [ext_resource type="Texture2D" uid="uid://cvpohbpli0g4y" path="res://Assets/character/adventurer-run-00.png" id="12_4wlds"]
-[ext_resource type="Texture2D" uid="uid://cg70s8db4bcdj" path="res://Assets/character/adventurer-die-04.png" id="12_glkjw"]
 [ext_resource type="Texture2D" uid="uid://bsv3qwhw4pmkn" path="res://Assets/character/adventurer-slide-01.png" id="12_hfj16"]
 [ext_resource type="Texture2D" uid="uid://bdcjf4nmusf7j" path="res://Assets/character/adventurer-stand-00.png" id="13_8ap06"]
-[ext_resource type="Texture2D" uid="uid://dxlme58r6mry" path="res://Assets/character/adventurer-die-05.png" id="13_8je3x"]
 [ext_resource type="Texture2D" uid="uid://cdtghs8edccru" path="res://Assets/character/adventurer-run-01.png" id="13_vutw1"]
-[ext_resource type="Texture2D" uid="uid://bpgpfffx3nj7i" path="res://Assets/character/adventurer-die-06.png" id="14_1yh7k"]
 [ext_resource type="Texture2D" uid="uid://bgmyqpxdl43h" path="res://Assets/character/adventurer-stand-01.png" id="14_nfl7h"]
 [ext_resource type="Texture2D" uid="uid://cwi3chsbveefi" path="res://Assets/character/adventurer-run-02.png" id="14_r1jms"]
 [ext_resource type="Texture2D" uid="uid://bow4ehahgmjxh" path="res://Assets/character/adventurer-run-03.png" id="15_ey0ad"]
@@ -53,38 +46,12 @@ animations = [{
 "duration": 2.0,
 "texture": ExtResource("6_v57ib")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": ExtResource("7_tlhox")
 }],
 "loop": true,
 "name": &"Attack",
-"speed": 20.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("8_48sk1")
-}, {
-"duration": 1.0,
-"texture": ExtResource("9_wj66t")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_cigh6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_k3kip")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_glkjw")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_8je3x")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_1yh7k")
-}],
-"loop": true,
-"name": &"Death",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 5.0,
@@ -178,7 +145,7 @@ radius = 9.33333
 height = 29.3333
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tvbjh"]
-size = Vector2(22.6667, 29.3333)
+size = Vector2(22.6667, 30)
 
 [sub_resource type="Curve" id="Curve_m2jh0"]
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.246032, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
@@ -189,15 +156,16 @@ offsets = PackedFloat32Array(0.25, 1)
 colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 0)
 
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
-collision_layer = 3
-collision_mask = 3
 script = ExtResource("1_qt7d6")
+move_speed = null
+jump_force = null
+gravity = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_4nss6")
-animation = &"Death"
-frame_progress = 0.37191
+animation = &"Attack"
+frame_progress = 0.222358
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)
@@ -207,7 +175,7 @@ shape = SubResource("CapsuleShape2D_n4sts")
 [node name="Collision" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Collision"]
-position = Vector2(-1.16825e-05, 5)
+position = Vector2(-1.16825e-05, 4.5)
 scale = Vector2(1.5, 1.5)
 shape = SubResource("RectangleShape2D_tvbjh")
 

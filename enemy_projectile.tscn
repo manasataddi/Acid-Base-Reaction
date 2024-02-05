@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://e5o37pokcpc1"]
+
+[ext_resource type="Script" path="res://enemy_projectile.gd" id="1_oym5d"]
+[ext_resource type="Texture2D" uid="uid://621as0fwjhum" path="res://Assets/Textures/star_07.png" id="2_erkg4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cqc7v"]
+radius = 20.025
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xli0a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_erkg4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mv8v6"]
+radius = 20.0
+
+[node name="RigidBody2D" type="RigidBody2D"]
+gravity_scale = 0.0
+script = ExtResource("1_oym5d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(39, 38)
+shape = SubResource("CircleShape2D_cqc7v")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(39, 38)
+
+[node name="FormulaLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(39, 38)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D"]
+scale = Vector2(0.15, 0.15)
+sprite_frames = SubResource("SpriteFrames_xli0a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_mv8v6")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
