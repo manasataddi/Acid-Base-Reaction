@@ -5,7 +5,7 @@
 [ext_resource type="TileSet" uid="uid://b6as2sy1uynqj" path="res://Tileset.tres" id="5_u8cmp"]
 [ext_resource type="Script" path="res://Scripts/GameUI.gd" id="6_66mfc"]
 [ext_resource type="Texture2D" uid="uid://clreg520jah1j" path="res://Assets/platformPack_item008.png" id="7_j7jun"]
-[ext_resource type="PackedScene" uid="uid://dtu06qlq70w1r" path="res://Scenes/Prefabs/enemy.tscn" id="7_m44gu"]
+[ext_resource type="PackedScene" uid="uid://dtu06qlq70w1r" path="res://enemy.tscn" id="7_m44gu"]
 [ext_resource type="FontFile" uid="uid://qgc4vi5osk7v" path="res://Assets/Fonts/Star Choco.ttf" id="8_gwcy2"]
 
 [node name="Level_01" type="Node2D"]
