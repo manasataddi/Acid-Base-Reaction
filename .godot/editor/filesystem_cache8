@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1707160031
 default_env.tres::Environment::3168362695892368327::1707148353::0::1::::<><>::
 enemy_projectile.gd::GDScript::-1::1707151626::0::1::::<>RigidBody2D<>::
@@ -165,3 +166,168 @@ GameUI.gd::GDScript::-1::1707148353::0::1::::<>Control<>::
 LevelFinishDoor.gd::GDScript::-1::1707148353::0::1::::<>Area2D<>::
 player.gd::GDScript::-1::1707151563::0::1::::<>CharacterBody2D<>::
 SceneTransition.gd::GDScript::-1::1707148353::0::1::::<>CanvasLayer<>::
+=======
+::res://::1707164201
+default_env.tres::Environment::3168362695892368327::1707164145::0::1::::<><>::
+enemy.gd::GDScript::-1::1707164145::0::1::::<>Node2D<>::
+enemy.tscn::PackedScene::8535711777850516709::1707164145::0::1::::<><>::uid://bmiyncj72wt8f::::res://Assets/Duck/Idle (36x36).png<>res://Scenes/Prefabs/enemy.gd<>uid://bhmo47bjnv1cm::::res://Assets/Duck/Hit (36x36).png<>uid://7j7ltmyyyhww::::res://Assets/Duck/Jump Anticipation (36x36).png<>uid://d05584uiyuoux::::res://Assets/Duck/Jump (36x36).png<>uid://caydv5aqhxk4a::::res://Assets/Duck/Fall (36x36).png
+icon.png::CompressedTexture2D::8953673386906101149::1707164145::1707164145::1::::<><>::
+icon.svg::CompressedTexture2D::4996655621281321516::1707164145::1707164206::1::::<><>::
+README.md::TextFile::-1::1707164145::0::1::::<><>::
+Tileset.tres::TileSet::4563416942481948701::1707164145::0::1::::<><>::uid://jaegp53ccc7w::::res://Assets/Spritesheet/platformPack_tilesheet.png
+::res://Assets/::1707164145
+platformPack_item008.png::CompressedTexture2D::5580268270516214921::1707164145::1707164206::1::::<><>::
+platformPack_tile048.png::CompressedTexture2D::5572625094219394687::1707164145::1707164206::1::::<><>::
+::res://Assets/character/::1707164145
+adventurer-air-attack1-00.png::CompressedTexture2D::1176030987528191634::1707164144::1707164208::1::::<><>::
+adventurer-air-attack1-01.png::CompressedTexture2D::4483513386678741681::1707164144::1707164208::1::::<><>::
+adventurer-air-attack1-02.png::CompressedTexture2D::1353225528356213969::1707164144::1707164208::1::::<><>::
+adventurer-air-attack1-03.png::CompressedTexture2D::2529951947668392847::1707164144::1707164208::1::::<><>::
+adventurer-air-attack2-00.png::CompressedTexture2D::2782222561011725745::1707164144::1707164208::1::::<><>::
+adventurer-air-attack2-01.png::CompressedTexture2D::475475474189385523::1707164144::1707164207::1::::<><>::
+adventurer-air-attack2-02.png::CompressedTexture2D::865882324424491311::1707164144::1707164207::1::::<><>::
+adventurer-air-attack3-loop-00.png::CompressedTexture2D::6400527457441567743::1707164144::1707164207::1::::<><>::
+adventurer-air-attack3-loop-01.png::CompressedTexture2D::4480490525402073953::1707164144::1707164207::1::::<><>::
+adventurer-air-attack3-rdy-00.png::CompressedTexture2D::4566926736313665195::1707164144::1707164207::1::::<><>::
+adventurer-air-attack-3-end-00.png::CompressedTexture2D::8914600131109792519::1707164144::1707164207::1::::<><>::
+adventurer-air-attack-3-end-01.png::CompressedTexture2D::9121436733662154038::1707164144::1707164207::1::::<><>::
+adventurer-air-attack-3-end-02.png::CompressedTexture2D::5541876261088092810::1707164144::1707164207::1::::<><>::
+adventurer-attack1-00.png::CompressedTexture2D::2254681501603345797::1707164144::1707164207::1::::<><>::
+adventurer-attack1-01.png::CompressedTexture2D::9029363472237483105::1707164144::1707164207::1::::<><>::
+adventurer-attack1-02.png::CompressedTexture2D::3351952169528405745::1707164144::1707164207::1::::<><>::
+adventurer-attack1-03.png::CompressedTexture2D::6904086214058957786::1707164144::1707164207::1::::<><>::
+adventurer-attack1-04.png::CompressedTexture2D::1367130265048775695::1707164144::1707164207::1::::<><>::
+adventurer-attack2-00.png::CompressedTexture2D::8916873186787869357::1707164144::1707164207::1::::<><>::
+adventurer-attack2-01.png::CompressedTexture2D::4416553067943692798::1707164144::1707164207::1::::<><>::
+adventurer-attack2-02.png::CompressedTexture2D::5447313406515612181::1707164144::1707164207::1::::<><>::
+adventurer-attack2-03.png::CompressedTexture2D::8616726411682003278::1707164144::1707164207::1::::<><>::
+adventurer-attack2-04.png::CompressedTexture2D::4417968845943928979::1707164144::1707164207::1::::<><>::
+adventurer-attack2-05.png::CompressedTexture2D::1229937983582276193::1707164144::1707164207::1::::<><>::
+adventurer-attack3-00.png::CompressedTexture2D::1254115036328401617::1707164144::1707164207::1::::<><>::
+adventurer-attack3-01.png::CompressedTexture2D::2929218950639797::1707164144::1707164207::1::::<><>::
+adventurer-attack3-02.png::CompressedTexture2D::2436557373027005159::1707164144::1707164207::1::::<><>::
+adventurer-attack3-03.png::CompressedTexture2D::2970004958464412454::1707164144::1707164207::1::::<><>::
+adventurer-attack3-04.png::CompressedTexture2D::8192373649269551192::1707164144::1707164207::1::::<><>::
+adventurer-attack3-05.png::CompressedTexture2D::7393995543729970313::1707164144::1707164207::1::::<><>::
+adventurer-cast-00.png::CompressedTexture2D::5478394857407314888::1707164144::1707164207::1::::<><>::
+adventurer-cast-01.png::CompressedTexture2D::8898946022331613410::1707164144::1707164207::1::::<><>::
+adventurer-cast-02.png::CompressedTexture2D::3960028390707690877::1707164144::1707164208::1::::<><>::
+adventurer-cast-03.png::CompressedTexture2D::6228652092978638032::1707164144::1707164208::1::::<><>::
+adventurer-cast-loop-00.png::CompressedTexture2D::5640830812735531595::1707164144::1707164208::1::::<><>::
+adventurer-cast-loop-01.png::CompressedTexture2D::4868433082017738447::1707164144::1707164208::1::::<><>::
+adventurer-cast-loop-02.png::CompressedTexture2D::1411606344374996144::1707164144::1707164208::1::::<><>::
+adventurer-cast-loop-03.png::CompressedTexture2D::7416845904565385865::1707164144::1707164208::1::::<><>::
+adventurer-crnr-clmb-00.png::CompressedTexture2D::4470997942276664986::1707164144::1707164208::1::::<><>::
+adventurer-crnr-clmb-01.png::CompressedTexture2D::1940829093104824504::1707164144::1707164208::1::::<><>::
+adventurer-crnr-clmb-02.png::CompressedTexture2D::526614926362101977::1707164144::1707164208::1::::<><>::
+adventurer-crnr-clmb-03.png::CompressedTexture2D::39697704804995396::1707164144::1707164208::1::::<><>::
+adventurer-crnr-clmb-04.png::CompressedTexture2D::2111740100481583397::1707164144::1707164208::1::::<><>::
+adventurer-crnr-grb-00.png::CompressedTexture2D::2314015506655541159::1707164144::1707164208::1::::<><>::
+adventurer-crnr-grb-01.png::CompressedTexture2D::5772070131617332164::1707164145::1707164208::1::::<><>::
+adventurer-crnr-grb-02.png::CompressedTexture2D::4044567665378416413::1707164145::1707164208::1::::<><>::
+adventurer-crnr-grb-03.png::CompressedTexture2D::7878498566795938846::1707164145::1707164208::1::::<><>::
+adventurer-crnr-jmp-00.png::CompressedTexture2D::8968385697916243340::1707164145::1707164208::1::::<><>::
+adventurer-crnr-jmp-01.png::CompressedTexture2D::8422372416425447868::1707164145::1707164208::1::::<><>::
+adventurer-crouch-00.png::CompressedTexture2D::1516506210303320807::1707164145::1707164208::1::::<><>::
+adventurer-crouch-01.png::CompressedTexture2D::9052196913517458559::1707164145::1707164208::1::::<><>::
+adventurer-crouch-02.png::CompressedTexture2D::1333945963174644634::1707164145::1707164208::1::::<><>::
+adventurer-crouch-03.png::CompressedTexture2D::2830505446638240784::1707164145::1707164208::1::::<><>::
+adventurer-die-00.png::CompressedTexture2D::2178566460683774849::1707164145::1707164208::1::::<><>::
+adventurer-die-01.png::CompressedTexture2D::1182758771538604425::1707164145::1707164208::1::::<><>::
+adventurer-die-02.png::CompressedTexture2D::5047860059366074429::1707164145::1707164208::1::::<><>::
+adventurer-die-03.png::CompressedTexture2D::8161995846664235376::1707164145::1707164208::1::::<><>::
+adventurer-die-04.png::CompressedTexture2D::5261586324442957871::1707164145::1707164208::1::::<><>::
+adventurer-die-05.png::CompressedTexture2D::258736793665614514::1707164145::1707164208::1::::<><>::
+adventurer-die-06.png::CompressedTexture2D::3452559560072694324::1707164145::1707164208::1::::<><>::
+adventurer-fall-00.png::CompressedTexture2D::8460550686646246651::1707164145::1707164208::1::::<><>::
+adventurer-fall-01.png::CompressedTexture2D::285862140870759806::1707164145::1707164208::1::::<><>::
+adventurer-hurt-00.png::CompressedTexture2D::8866501494059469030::1707164145::1707164208::1::::<><>::
+adventurer-hurt-01.png::CompressedTexture2D::550825563312814766::1707164145::1707164208::1::::<><>::
+adventurer-hurt-02.png::CompressedTexture2D::6397552337057002309::1707164145::1707164208::1::::<><>::
+adventurer-idle-00.png::CompressedTexture2D::2120565910715320049::1707164145::1707164206::1::::<><>::
+adventurer-idle-01.png::CompressedTexture2D::8048340058626183450::1707164145::1707164206::1::::<><>::
+adventurer-idle-2-00.png::CompressedTexture2D::4600801725346305701::1707164145::1707164206::1::::<><>::
+adventurer-idle-2-01.png::CompressedTexture2D::4731824369161310504::1707164145::1707164206::1::::<><>::
+adventurer-idle-2-02.png::CompressedTexture2D::238907271336943852::1707164145::1707164206::1::::<><>::
+adventurer-idle-2-03.png::CompressedTexture2D::7128004917662701218::1707164145::1707164206::1::::<><>::
+adventurer-idle-02.png::CompressedTexture2D::8669450343635505123::1707164145::1707164206::1::::<><>::
+adventurer-idle-03.png::CompressedTexture2D::6919587655415304580::1707164145::1707164206::1::::<><>::
+adventurer-items-00.png::CompressedTexture2D::8172386797943053943::1707164145::1707164206::1::::<><>::
+adventurer-items-01.png::CompressedTexture2D::3063248605429531412::1707164145::1707164206::1::::<><>::
+adventurer-items-02.png::CompressedTexture2D::4352284817338556879::1707164145::1707164206::1::::<><>::
+adventurer-jump-00.png::CompressedTexture2D::1223942049015182263::1707164145::1707164206::1::::<><>::
+adventurer-jump-01.png::CompressedTexture2D::372743059925971858::1707164145::1707164206::1::::<><>::
+adventurer-jump-02.png::CompressedTexture2D::3008869653918470822::1707164145::1707164206::1::::<><>::
+adventurer-jump-03.png::CompressedTexture2D::5467345934027365521::1707164145::1707164206::1::::<><>::
+adventurer-ladder-climb-00.png::CompressedTexture2D::516977969227200938::1707164145::1707164206::1::::<><>::
+adventurer-ladder-climb-01.png::CompressedTexture2D::2975013367115501228::1707164145::1707164206::1::::<><>::
+adventurer-ladder-climb-02.png::CompressedTexture2D::6026993528839531618::1707164145::1707164206::1::::<><>::
+adventurer-ladder-climb-03.png::CompressedTexture2D::70614402744517166::1707164145::1707164206::1::::<><>::
+adventurer-run-00.png::CompressedTexture2D::6278635364758730866::1707164145::1707164206::1::::<><>::
+adventurer-run-01.png::CompressedTexture2D::5023008874726048606::1707164145::1707164206::1::::<><>::
+adventurer-run-02.png::CompressedTexture2D::6335214992384254546::1707164145::1707164206::1::::<><>::
+adventurer-run-03.png::CompressedTexture2D::3416249109170716377::1707164145::1707164206::1::::<><>::
+adventurer-run-04.png::CompressedTexture2D::6071708965975976554::1707164145::1707164206::1::::<><>::
+adventurer-run-05.png::CompressedTexture2D::4020263369346600490::1707164145::1707164206::1::::<><>::
+adventurer-slide-00.png::CompressedTexture2D::4314453873235711977::1707164145::1707164206::1::::<><>::
+adventurer-slide-01.png::CompressedTexture2D::3694901617879149529::1707164145::1707164206::1::::<><>::
+adventurer-smrslt-00.png::CompressedTexture2D::3078913765387687814::1707164145::1707164206::1::::<><>::
+adventurer-smrslt-01.png::CompressedTexture2D::3829675205759822544::1707164145::1707164206::1::::<><>::
+adventurer-smrslt-02.png::CompressedTexture2D::7252544810510508133::1707164145::1707164206::1::::<><>::
+adventurer-smrslt-03.png::CompressedTexture2D::6889793109286090882::1707164145::1707164206::1::::<><>::
+adventurer-stand-00.png::CompressedTexture2D::2601672895852018157::1707164145::1707164206::1::::<><>::
+adventurer-stand-01.png::CompressedTexture2D::83347437724465243::1707164145::1707164207::1::::<><>::
+adventurer-stand-02.png::CompressedTexture2D::1314032994087009808::1707164145::1707164207::1::::<><>::
+adventurer-swrd-drw-00.png::CompressedTexture2D::6061951737109381171::1707164145::1707164207::1::::<><>::
+adventurer-swrd-drw-01.png::CompressedTexture2D::1587037319456875236::1707164145::1707164207::1::::<><>::
+adventurer-swrd-drw-02.png::CompressedTexture2D::1819508590797504696::1707164145::1707164207::1::::<><>::
+adventurer-swrd-drw-03.png::CompressedTexture2D::6405273463655172777::1707164145::1707164207::1::::<><>::
+adventurer-swrd-shte-00.png::CompressedTexture2D::2000221062575733183::1707164145::1707164207::1::::<><>::
+adventurer-swrd-shte-01.png::CompressedTexture2D::1902687394641190980::1707164145::1707164207::1::::<><>::
+adventurer-swrd-shte-02.png::CompressedTexture2D::411561697179912478::1707164145::1707164207::1::::<><>::
+adventurer-swrd-shte-03.png::CompressedTexture2D::6677163929771245693::1707164145::1707164207::1::::<><>::
+adventurer-wall-slide-00.png::CompressedTexture2D::8767282752821208184::1707164145::1707164207::1::::<><>::
+adventurer-wall-slide-01.png::CompressedTexture2D::5000729737006906910::1707164145::1707164207::1::::<><>::
+::res://Assets/Duck/::1707164144
+Fall (36x36).png::CompressedTexture2D::4822607662571680938::1707164144::1707164207::1::::<><>::
+Hit (36x36).png::CompressedTexture2D::2903418630849173264::1707164144::1707164207::1::::<><>::
+Idle (36x36).png::CompressedTexture2D::3246682372969969107::1707164144::1707164207::1::::<><>::
+Jump (36x36).png::CompressedTexture2D::8977796470103362455::1707164144::1707164207::1::::<><>::
+Jump Anticipation (36x36).png::CompressedTexture2D::2266586001309835102::1707164144::1707164207::1::::<><>::
+::res://Assets/Fonts/::1707164144
+Star Choco.ttf::FontFile::1135582103472931629::1707164144::1707164206::1::::<><>::
+::res://Assets/Sound/::1707164144
+::res://Assets/Sound/FX/::1707164144
+30_Jump_03.wav::AudioStreamWAV::9147479056271028219::1707164144::1707164208::1::::<><>::
+::res://Assets/Splash/::1707164144
+2D Platformer Starter Kit Splash.png::CompressedTexture2D::559863941929811480::1707164144::1707164207::1::::<><>::
+::res://Assets/Spritesheet/::1707164144
+platformerPack_character.png::CompressedTexture2D::4881342531443074800::1707164144::1707164207::1::::<><>::
+platformPack_tilesheet.png::CompressedTexture2D::631954010946117902::1707164144::1707164207::1::::<><>::
+::res://Assets/Textures/::1707164144
+CloudTexture.png::CompressedTexture2D::8806572391911018943::1707164144::1707164207::1::::<><>::
+star_07.png::CompressedTexture2D::2233171978247897944::1707164144::1707164207::1::::<><>::
+::res://Assets/Virtual Guy/::1707164144
+Double Jump (32x32).png::CompressedTexture2D::5226359571554253521::1707164144::1707164206::1::::<><>::
+Fall (32x32).png::CompressedTexture2D::644188251122152512::1707164144::1707164206::1::::<><>::
+Hit (32x32).png::CompressedTexture2D::771392403052143964::1707164144::1707164206::1::::<><>::
+Idle (32x32).png::CompressedTexture2D::1033144192983318863::1707164144::1707164206::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::2655725892814396819::1707164144::1707164206::1::::<><>::
+Run (32x32).png::CompressedTexture2D::6732819418406419499::1707164144::1707164206::1::::<><>::
+Wall Jump (32x32).png::CompressedTexture2D::4401784259330682371::1707164144::1707164206::1::::<><>::
+::res://Scenes/::1707164145
+::res://Scenes/Levels/::1707164145
+Level_01.tscn::PackedScene::5405370242886089164::1707164145::0::1::::<><>::uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>res://Scripts/GameManager.gd<>uid://b6as2sy1uynqj::::res://Tileset.tres<>res://Scripts/GameUI.gd<>uid://clreg520jah1j::::res://Assets/platformPack_item008.png<>uid://dtu06qlq70w1r::::res://enemy.tscn<>uid://qgc4vi5osk7v::::res://Assets/Fonts/Star Choco.ttf
+::res://Scenes/Prefabs/::1707164145
+enemy.gd::GDScript::-1::1707164145::0::1::::<>Node2D<>::
+enemy.tscn::PackedScene::8535711777850516709::1707164145::0::1::::<><>::uid://bmiyncj72wt8f::::res://Assets/Duck/Idle (36x36).png<>res://Scenes/Prefabs/enemy.gd<>uid://bhmo47bjnv1cm::::res://Assets/Duck/Hit (36x36).png<>uid://7j7ltmyyyhww::::res://Assets/Duck/Jump Anticipation (36x36).png<>uid://d05584uiyuoux::::res://Assets/Duck/Jump (36x36).png<>uid://caydv5aqhxk4a::::res://Assets/Duck/Fall (36x36).png
+player.tscn::PackedScene::1610999616160710134::1707164145::0::1::::<><>::res://Scripts/player.gd<>uid://k8wyqr2xmxaq::::res://Assets/Virtual Guy/Hit (32x32).png<>uid://oypy7n066uyh::::res://Assets/Virtual Guy/Idle (32x32).png<>uid://cgpxm4vbdy8hp::::res://Assets/Virtual Guy/Double Jump (32x32).png<>uid://bd3pogtnd8g8b::::res://Assets/Virtual Guy/Jump (32x32).png<>uid://dxp77wq60c2rr::::res://Assets/Textures/CloudTexture.png<>uid://c26os1jp2nd4n::::res://Assets/Virtual Guy/Run (32x32).png
+::res://Scripts/::1707164145
+AudioManager.gd::GDScript::-1::1707164145::0::1::::<>Node<>::
+Coin.gd::GDScript::-1::1707164145::0::1::::<>Area2D<>::
+GameManager.gd::GDScript::-1::1707164145::0::1::::<>Node2D<>::
+GameUI.gd::GDScript::-1::1707164145::0::1::::<>Control<>::
+LevelFinishDoor.gd::GDScript::-1::1707164145::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1707164145::0::1::::<>CharacterBody2D<>::
+SceneTransition.gd::GDScript::-1::1707164145::0::1::::<>CanvasLayer<>::
+>>>>>>> Stashed changes
