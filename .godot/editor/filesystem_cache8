@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1707164950
 default_env.tres::Environment::3168362695892368327::1707164145::0::1::::<><>::
 Icon.png::CompressedTexture2D::4126882384126331046::1707164950::1707324499::1::::<><>::
@@ -35,6 +36,44 @@ Idle (32x32).png::CompressedTexture2D::1033144192983318863::1707164144::17073244
 Jump (32x32).png::CompressedTexture2D::2655725892814396819::1707164144::1707324498::1::::<><>::
 Run (32x32).png::CompressedTexture2D::6732819418406419499::1707164144::1707324498::1::::<><>::
 Wall Jump (32x32).png::CompressedTexture2D::4401784259330682371::1707164144::1707324498::1::::<><>::
+=======
+::res://::1707164314
+default_env.tres::Environment::3168362695892368327::1707164145::0::1::::<><>::
+icon.png::CompressedTexture2D::1623085831685198535::1707164314::1707164360::1::::<><>::
+icon.svg::CompressedTexture2D::4996655621281321516::1707164145::1707164313::1::::<><>::
+README.md::TextFile::-1::1707164145::0::1::::<><>::
+Tileset.tres::TileSet::4563416942481948701::1707164145::0::1::::<><>::uid://jaegp53ccc7w::::res://Assets/Spritesheet/platformPack_tilesheet.png
+::res://Assets/::1707164314
+platformPack_item008.png::CompressedTexture2D::5580268270516214921::1707164145::1707164313::1::::<><>::
+platformPack_tile048.png::CompressedTexture2D::5572625094219394687::1707164145::1707164313::1::::<><>::
+::res://Assets/Duck/::1707164312
+Fall (36x36).png::CompressedTexture2D::4822607662571680938::1707164144::1707164312::1::::<><>::
+Hit (36x36).png::CompressedTexture2D::2903418630849173264::1707164144::1707164312::1::::<><>::
+Idle (36x36).png::CompressedTexture2D::3246682372969969107::1707164144::1707164312::1::::<><>::
+Jump (36x36).png::CompressedTexture2D::8977796470103362455::1707164144::1707164312::1::::<><>::
+Jump Anticipation (36x36).png::CompressedTexture2D::2266586001309835102::1707164144::1707164312::1::::<><>::
+::res://Assets/Fonts/::1707164312
+Star Choco.ttf::FontFile::1135582103472931629::1707164144::1707164312::1::::<><>::
+::res://Assets/Sound/::1707164144
+::res://Assets/Sound/FX/::1707164312
+30_Jump_03.wav::AudioStreamWAV::9147479056271028219::1707164144::1707164312::1::::<><>::
+::res://Assets/Splash/::1707164312
+2D Platformer Starter Kit Splash.png::CompressedTexture2D::559863941929811480::1707164144::1707164312::1::::<><>::
+::res://Assets/Spritesheet/::1707164312
+platformerPack_character.png::CompressedTexture2D::4881342531443074800::1707164144::1707164312::1::::<><>::
+platformPack_tilesheet.png::CompressedTexture2D::631954010946117902::1707164144::1707164312::1::::<><>::
+::res://Assets/Textures/::1707164312
+CloudTexture.png::CompressedTexture2D::8806572391911018943::1707164144::1707164312::1::::<><>::
+star_07.png::CompressedTexture2D::2233171978247897944::1707164144::1707164312::1::::<><>::
+::res://Assets/Virtual Guy/::1707164312
+Double Jump (32x32).png::CompressedTexture2D::5226359571554253521::1707164144::1707164312::1::::<><>::
+Fall (32x32).png::CompressedTexture2D::644188251122152512::1707164144::1707164312::1::::<><>::
+Hit (32x32).png::CompressedTexture2D::771392403052143964::1707164144::1707164312::1::::<><>::
+Idle (32x32).png::CompressedTexture2D::1033144192983318863::1707164144::1707164312::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::2655725892814396819::1707164144::1707164312::1::::<><>::
+Run (32x32).png::CompressedTexture2D::6732819418406419499::1707164144::1707164312::1::::<><>::
+Wall Jump (32x32).png::CompressedTexture2D::4401784259330682371::1707164144::1707164312::1::::<><>::
+>>>>>>> Stashed changes
 ::res://Scenes/::1707164145
 ::res://Scenes/Levels/::1707164314
 Level_01.tscn::PackedScene::5405370242886089164::1707164145::0::1::::<><>::uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>res://Scripts/GameManager.gd<>uid://b6as2sy1uynqj::::res://Tileset.tres<>res://Scripts/GameUI.gd<>uid://clreg520jah1j::::res://Assets/platformPack_item008.png<>uid://dtu06qlq70w1r::::res://enemy.tscn<>uid://qgc4vi5osk7v::::res://Assets/Fonts/Star Choco.ttf
